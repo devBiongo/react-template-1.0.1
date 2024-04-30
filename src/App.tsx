@@ -1,5 +1,5 @@
 import Test from "@/components/Test";
-import React, { useState } from "react";
+import { useState } from "react";
 import "./app.less";
 
 function App() {
