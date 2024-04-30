@@ -55,7 +55,7 @@ module.exports = {
           },
         },
         generator: {
-          filename: "static/images/[name].[chunkhash:8][ext]",
+          filename: "static/images/[name][ext]",
         },
       },
       {
@@ -67,7 +67,7 @@ module.exports = {
           },
         },
         generator: {
-          filename: "static/fonts/[name].[chunkhash:8][ext]",
+          filename: "static/fonts/[name][ext]",
         },
       },
       {
@@ -79,7 +79,7 @@ module.exports = {
           },
         },
         generator: {
-          filename: "static/media/[name].[chunkhash:8][ext]",
+          filename: "static/media/[name][ext]",
         },
       },
     ],
