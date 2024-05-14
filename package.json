@@ -12,7 +12,8 @@
     "build:test": "cross-env NODE_ENV=production BASE_ENV=test webpack -c config/webpack.prod.js",
     "build:pre": "cross-env NODE_ENV=production BASE_ENV=pre webpack -c config/webpack.prod.js",
     "build:prod": "cross-env NODE_ENV=production BASE_ENV=production webpack -c config/webpack.prod.js",
-    "build:analy": "cross-env NODE_ENV=production BASE_ENV=production webpack -c config/webpack.analy.js"
+    "build:analy": "cross-env NODE_ENV=production BASE_ENV=production webpack -c config/webpack.analy.js",
+    "build": "webpack -c config/webpack.prod.js"
   },
   "keywords": [],
   "author": "biongo",
